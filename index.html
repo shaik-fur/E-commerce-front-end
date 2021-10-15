@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My practice websites">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AniFit</title>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+
+<body>
+    <div class="imgcontent">
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <h3>AniFit</h3>
+                </li>
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+                <div class="btn">
+                    <li><button class="lgn" id="myBtn">Login</button></li>
+
+
+                    <div id="myModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="close">&times;</span>
+                                <h2>Login</h2>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="InputEmail" style="padding: 5px;">Email address</label>
+                                    <input type="email" class="form-control" name="email" id="InputEmail"
+                                        aria-describedby="emailHelp" required placeholder="xyz@mail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pass" style="padding: 13px; ">Password</label>
+                                    <input type="password" id="pass" name="password" placeholder="enter password.."
+                                        required autofocus>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button style="width: 50%; height: 30px; background-color: #5cb85c; cursor: pointer;" onclick="myfun1()">Login</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <li><button class="sign" id="myBtn1">Sign Up</button></li>
+
+
+                    <div id="myModal1" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header" style="background-color: red;">
+                                <span class="close1">&times;</span>
+                                <h2>Sign Up</h2>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label for="InputEmail">Email address</label>
+                                    <input type="email" class="form-control" name="email" id="InputEmail1"
+                                        aria-describedby="emailHelp" required placeholder="xyz@mail.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="pass" style="padding: 13px; ">Password</label>
+                                    <input type="password" id="pass" name="password" placeholder="enter password.."
+                                        required autofocus>
+                                </div>
+
+                                <div class="modal-footer">
+                                    <button style="width: 50%; height: 30px; background-color: red; cursor: pointer;" onclick="myfun()">signup</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <h2 style="text-align:center; padding: 20px;">LATEST DROPS</h2>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <img src="hood1.jpg" alt="hoodie" style="width:100%">
+                <h1>Itadori jujutsu uniform</h1>
+                <p class="price">&#x20B9;1,700.00</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="hood2.jpg" alt="hood" style="width:100%">
+                <h1>Tokyo Manji uniform</h1>
+                <p class="price">&#x20B9;799.00</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="hood4.jpg" alt="hood" style="width:100%">
+                <h1>Wake Up To Reality</h1>
+                <p class="price">&#x20B9;799.00</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <img src="clk1.jpg" alt="hoodie" style="width:100%">
+                <h1>Akatsuki Cloak</h1>
+                <p class="price">&#x20B9;1,299.00</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="clk2.jpg" alt="hood" style="width:100%">
+                <h1>7th Hokage Cloak</h1>
+                <p class="price">&#x20B9;1,099.00</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="clk3.jpg" alt="hood" style="width:100%">
+                <h1>Way of the Ace</h1>
+                <p class="price">&#x20B9;599.00</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <img src="swt1.jpg" alt="hoodie" style="width:100%">
+                <h1>Wanted Luffy</h1>
+                <p class="price">&#x20B9;1,500.00</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="swt2.jpg" alt="hood" style="width:100%">
+                <h1>Pirates Jacket</h1>
+                <p class="price">&#x20B9;1,950.00</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="swt3.jpg" alt="hood" style="width:100%">
+                <h1>Tanjiro Jacket</h1>
+                <p class="price">&#x20B9;1,900.00</p>
+                <p><button>Add to Cart</button></p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footer-box">
+                        <div class="footer-title">
+                            <h5>Download Our Mobile App</h5>
+                        </div>
+                        <div class="footer-desc">
+                            <p>All artworks posted on this website is intended
+                                as fan art and is not purported to be
+                                official merchandise unless indicated otherwise.
+                                If you have any issues regarding the artwork
+                                do write in to us at care@anifit.xyz.</p>
+                        </div>
+                        <div class="app-img">
+                            <div class="app-store"><a href="#"><img src="log2.png" width="70" height="50" alt="" /></a>
+                            </div>
+                            <div class="app-store"><a href="#"><img src="log3.png" width="70" height="50" alt="" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="footer-box">
+                        <div class="footer-title">
+                            <div class="footer-logo"><img src="ani.png" width="100" height="70" alt="" /></div>
+                        </div>
+                        <div class="footer-desc">
+                            <p style="text-align: center;">One stop solution to all your comic problems.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer-box">
+                        <div class="footer-title">
+                            <h5>Quick Links</h5>
+                        </div>
+                        <div class="footer-desc">
+                            <ul>
+                                <li><a href="#">Know More About Us</a></li>
+                                <li><a href="#">Visit Store</a></li>
+                                <li><a href="#">Let's Connect</a></li>
+                                <li><a href="#">Locate Store</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer-box">
+                        <div class="footer-title">
+                            <h5>Sites Links</h5>
+                        </div>
+                        <div class="footer-desc">
+                            <ul>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Shipping Details</a></li>
+                                <li><a href="#">Offer Coupons</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="myjs.js"></script>
+</body>
+
+</html>
